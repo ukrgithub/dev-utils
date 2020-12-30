@@ -1,0 +1,78 @@
+{
+    "editor.renderWhitespace": "all",
+    "editor.codeActionsOnSave": null,
+    "editor.tokenColorCustomizations": {
+        "strings": "#FFF78B",
+        "numbers": "#ABC48B",
+        "keywords": "#7AB4F5",
+        "comments": "#88888B",
+        "textMateRules": [
+            {
+                "scope":"variable.other.enummember",
+                "settings": {
+                    "foreground": "#84E6FF",
+                }
+            },
+            {
+                "scope":"variable.other.global",
+                "settings": {
+                    "foreground": "#FD68B2",
+                }
+            },
+            {
+                "scope":"variable.other.local",
+                "settings": {
+                    "foreground": "#62F8BA",
+                }
+            },
+            {
+                "scope":"entity.name.function.preprocessor",
+                "settings": {
+                    "foreground": "#FF5100",
+                }
+            },
+            {
+                "scope":"entity.name.type.class.generic",
+                "settings": {
+                    "foreground": "#FD0202",
+                }
+            },
+            {
+                "scope":"entity.name.type",
+                "settings": {
+                    "foreground": "#01DDD2",
+                }
+            },
+            {
+                "scope":"variable.parameter".
+                "settings": {
+                    "foreground": "#B16DF1",
+                }
+            },
+            {
+                "scope":"variable.other.property",
+                "settings": {
+                    "foreground": "#F8A991",
+                }
+            },
+            {
+                "scope":"entity.name.function",
+                "settings": {
+                    "foreground": "#FA9D80FB",
+                }
+            },
+            {
+                "scope":"entity.name.class.value",
+                "settings": {
+                    "foreground": "#FC895498",
+                }
+            },
+            {
+                "scope":"entity.name.function.member.static",
+                "settings": {
+                    "foreground": "#FF611798",
+                }
+            }
+        ]
+    }
+}
