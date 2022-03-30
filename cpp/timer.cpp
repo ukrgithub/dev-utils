@@ -68,6 +68,7 @@ private:
 
 };
 
+std::list<Timer<std::string>>    timers;
 
 int main(void)
 {
@@ -82,6 +83,9 @@ int main(void)
 
     Timer<std::string>    timer1(1*1000, 0, timeout_handler, id1);
     Timer<std::string>    timer2(2*1000, 0, timeout_handler, id2);
+
+    timers.emplace_back(timer1);
+    timers.emplace_back(timer2);
 
     std::this_thread::sleep_for(std::chrono::microseconds(3*1000));
 
